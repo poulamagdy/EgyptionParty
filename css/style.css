@@ -1,0 +1,106 @@
+:root
+{
+    --maincolor: #E68285;
+}
+
+header
+{
+    background-image: url(../images/events-heavenly-header\ \(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 660px;
+}
+.captionhome
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+}
+.captionhome h2
+{
+    font-size: 60px;
+}
+.card-header
+{
+    background-color: var(--maincolor);
+    cursor: pointer;
+}
+.card-body
+{
+    background-color: #ccc;
+}
+#details
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 330px;
+}
+.cationDetails
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+.time
+{
+    border: 2px solid #fff;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.icon1
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    transition: all 1s ease-in-out;
+}
+.icon1:hover
+{
+    background-color: red;
+    color: white;
+}
+.sideBar
+{
+    background-color: tomato;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.sideBarinner
+{
+    background-color: rgb(17, 17, 17);
+    padding: 50px;
+    height: 100%;
+}
+.sideBarinner a
+{
+    font-size: 18px;
+}
+.sideBarinner .close-btn
+{
+    top: 5px;
+    right: 10px;
+    font-size: 26px;
+}
+.sideBarinner a:hover
+{
+    color: var(--maincolor) !important;
+}
+.openbtn
+{
+    color: #fff;
+    padding: 10px;
+    top: 350px;
+    left: 200px;
+    font-size: 30px;
+    cursor: pointer;
+}
